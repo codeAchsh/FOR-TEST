@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>スキルセット</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .skill-category {
+            margin-bottom: 20px;
+        }
+        .skill-category h2 {
+            margin-bottom: 10px;
+        }
+        .skill {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        .skill-name {
+            width: 150px;
+        }
+        .skill-bar {
+            flex-grow: 1;
+            height: 20px;
+            background-color: #e0e0e0;
+            overflow: hidden;
+        }
+        .skill-level {
+            height: 100%;
+            background-color: #76c7c0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="skill-category">
+            <h2>Microsoft Office</h2>
+            <div class="skill">
+                <div class="skill-name">Word</div>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 80%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="skill-name">Excel</div>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 70%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="skill-name">PowerPoint</div>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 90%;"></div>
+                </div>
+            </div>
+        </div>
+        <div class="skill-category">
+            <h2>Web Design</h2>
+            <div class="skill">
+                <div class="skill-name">Visual Studio Code</div>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 85%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="skill-name">Photoshop</div>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 60%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="skill-name">Figma</div>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 75%;"></div>
+                </div>
+            </div>
+
+            <div class="skill-category">    
+                <div class="skill">
+                    <div class="skill-name">HTML</div>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 90%;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill-name">CSS</div>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 80%;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill-name">JavaScript</div>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 70%;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill-name">jQuery</div>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 65%;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
